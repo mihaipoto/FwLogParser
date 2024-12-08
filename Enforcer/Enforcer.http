@@ -1,0 +1,6 @@
+@Enforcer_HostAddress = http://localhost:4001
+
+GET {{Enforcer_HostAddress}}/status/
+Accept: application/json
+
+###
