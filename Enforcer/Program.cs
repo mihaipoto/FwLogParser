@@ -9,8 +9,9 @@ builder.Services.AddWindowsService();
 
 var app = builder.Build();
 
-app.MapGet("/status", ([FromServices] StatusService statusService) => statusService.ToString())
-.WithOpenApi();
+app.MapGet("/status", ([FromServices] StatusService statusService)
+	=> statusService.ToString());
+
 
 app.Urls.Add("http://localhost:4001");
 
