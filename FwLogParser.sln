@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FwLogParser", "FwLogParser\FwLogParser.csproj", "{1A484182-4EAF-406B-BAFF-36289628A0EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enforcer", "Enforcer\Enforcer.csproj", "{C7F9D837-9737-451E-AC31-B74FB70A0126}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enforcer", "Enforcer\Enforcer.csproj", "{C7F9D837-9737-451E-AC31-B74FB70A0126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{046D94E3-D218-4861-A740-504A8C238D59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C7F9D837-9737-451E-AC31-B74FB70A0126}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7F9D837-9737-451E-AC31-B74FB70A0126}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7F9D837-9737-451E-AC31-B74FB70A0126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046D94E3-D218-4861-A740-504A8C238D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046D94E3-D218-4861-A740-504A8C238D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046D94E3-D218-4861-A740-504A8C238D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046D94E3-D218-4861-A740-504A8C238D59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
